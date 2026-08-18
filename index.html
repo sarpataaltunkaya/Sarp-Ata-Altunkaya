@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarp Ata Altunkaya | YouTube</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(8,8,8,0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #333;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #aaa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #aaa;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 20px 60px;
+    background:
+        radial-gradient(circle at center, #303030 0%, #111 35%, #080808 70%);
+}
+
+.hero h1 {
+    font-size: clamp(42px, 8vw, 85px);
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #aaa;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #ccc;
+    max-width: 700px;
+    margin: auto;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #555;
+    background: #171717;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    background: #333;
+}
+
+.subscribe {
+    background: white;
+    color: black;
+}
+
+.subscribe:hover {
+    background: #ddd;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 90px 20px;
+}
+
+.title {
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #ccc;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.video {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.video:hover {
+    transform: translateY(-6px);
+    border-color: #777;
+}
+
+.video-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #444;
+    background: #080808;
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comment {
+    background: #161616;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 18px;
+    margin-top: 15px;
+}
+
+.comment strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #050505;
+    border-top: 1px solid #222;
+    color: #aaa;
+}
+
+@media(max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 13px;
+    }
+
+    .hero {
+        padding-top: 150px;
+    }
+
+    section {
+        padding: 70px 15px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <div class="logo">Sarp Ata <span>Altunkaya</span></div>
+
+    <div>
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#videolar">Videolar</a>
+        <a href="#iletisim">İletişim</a>
+    </div>
+</nav>
+</header>
+
+<section class="hero" id="anasayfa">
+    <div>
+        <h1>Sarp Ata <span>Altunkaya</span></h1>
+
+        <p>
+            Oyun, vlog, eğlence ve daha fazlası!
+            YouTube kanalıma hoş geldin. 🎮
+        </p>
+
+        <div class="buttons">
+            <a class="btn subscribe"
+               href="https://www.youtube.com/@SarpAtaAltunkaya-w7i"
+               target="_blank">
+                🔴 YouTube'a Git
+            </a>
+
+            <a class="btn"
+               href="https://www.youtube.com/@SarpAtaAltunkaya-w7i?sub_confirmation=1"
+               target="_blank">
+                ⭐ Abone Ol
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="hakkimda">
+    <h2 class="title">👤 Hakkımda</h2>
+
+    <div class="card">
+        <p>
+            Merhaba! Ben Sarp Ata Altunkaya.
+            YouTube kanalımda oyun, vlog, eğlence ve
+            farklı içerikler paylaşıyorum.
+        </p>
+
+        <br>
+
+        <p>
+            Burada kanalım hakkında bilgi edinebilir,
+            videolarımı keşfedebilir ve YouTube kanalıma
+            kolayca ulaşabilirsin.
+        </p>
+    </div>
+</section>
+
+<section id="videolar">
+    <h2 class="title">🎮 Videolar</h2>
+
+    <div class="video-grid">
+
+        <div class="video">
+            <div class="video-icon">🎮</div>
+            <h3>Oyun Videoları</h3>
+            <p>Oyun dünyasından eğlenceli içerikler.</p>
+        </div>
+
+        <div class="video">
+            <div class="video-icon">📹</div>
+            <h3>Vloglar</h3>
+            <p>Günlük hayat ve eğlenceli vloglar.</p>
+        </div>
+
+        <div class="video">
+            <div class="video-icon">😂</div>
+            <h3>Eğlence</h3>
+            <p>Bol bol eğlence ve farklı içerikler.</p>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <a class="btn"
+           href="https://www.youtube.com/@SarpAtaAltunkaya-w7i"
+           target="_blank">
+            ▶️ Tüm Videoları Gör
+        </a>
+    </div>
+</section>
+
+<section id="iletisim">
+    <h2 class="title">📩 İletişim</h2>
+
+    <div class="card">
+        <form class="contact-form"
+              onsubmit="sendMessage(event)">
+
+            <input
+                id="name"
+                type="text"
+                placeholder="Adın"
+                required>
+
+            <input
+                id="email"
+                type="email"
+                placeholder="E-posta adresin"
+                required>
+
+            <textarea
+                id="message"
+                placeholder="Mesajın"
+                required></textarea>
+
+            <button type="submit">
+                📩 Mesaj Gönder
+            </button>
+        </form>
+    </div>
+</section>
+
+<section id="yorumlar">
+    <h2 class="title">💬 Yorumlar</h2>
+
+    <div class="card">
+
+        <form class="contact-form"
+              onsubmit="addComment(event)">
+
+            <input
+                id="commentName"
+                type="text"
+                placeholder="Adın"
+                required>
+
+            <textarea
+                id="commentText"
+                placeholder="Yorumunu yaz..."
+                required></textarea>
+
+            <button type="submit">
+                💬 Yorum Yap
+            </button>
+        </form>
+
+        <div id="comments"></div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sarp Ata Altunkaya</p>
+
+    <br>
+
+    <a class="btn"
+       href="https://www.youtube.com/@SarpAtaAltunkaya-w7i"
+       target="_blank">
+        ▶️ YouTube Kanalım
+    </a>
+</footer>
+
+<script>
+
+function sendMessage(event) {
+    event.preventDefault();
+
+    const name =
+        document.getElementById("name").value;
+
+    const email =
+        document.getElementById("email").value;
+
+    const message =
+        document.getElementById("message").value;
+
+    const subject =
+        encodeURIComponent("Web Sitesinden Mesaj");
+
+    const body =
+        encodeURIComponent(
+            "Ad: " + name +
+            "\nE-posta: " + email +
+            "\n\nMesaj:\n" + message
+        );
+
+    window.location.href =
+        "mailto:?subject=" +
+        subject +
+        "&body=" +
+        body;
+}
+
+function addComment(event) {
+    event.preventDefault();
+
+    const name =
+        document.getElementById("commentName").value;
+
+    const text =
+        document.getElementById("commentText").value;
+
+    const comment =
+        document.createElement("div");
+
+    comment.className = "comment";
+
+    comment.innerHTML =
+        "<strong>" +
+        escapeHTML(name) +
+        "</strong><p>" +
+        escapeHTML(text) +
+        "</p>";
+
+    document
+        .getElementById("comments")
+        .prepend(comment);
+
+    document.getElementById("commentName").value = "";
+    document.getElementById("commentText").value = "";
+}
+
+function escapeHTML(text) {
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+</script>
+
+</body>
+</html>
